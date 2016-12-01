@@ -1,0 +1,55 @@
+{
+  "pies": [
+    {
+      "id": "1",
+      "pie": {
+        "name": "corespring-inline-choice-ng15",
+        "version": "1.0.0"
+      },
+      "correctResponse": "mc_1",
+      "title": "Inline Choice",
+      "minimumWidth": 100,
+      "feedback" :  [
+        {
+          "value": "mc_1",
+          "feedbackType" : "default"
+        },
+        {
+          "value": "mc_2",
+          "feedbackType" : "default"
+        },
+        {
+          "value": "mc_3",
+          "feedbackType" : "default"
+        },
+        {
+          "value": "mc_4",
+          "feedbackType" : "default"
+        }
+      ],
+      "model": {
+        "choices": [
+          {
+            "label": "one",
+            "value": "mc_1"
+          },
+          {
+            "label": "two",
+            "value": "mc_2"
+          },
+          {
+            "label": "three",
+            "value": "mc_3"
+          },
+          {
+            "label": "four",
+            "value": "mc_4"
+          }
+        ],
+        "config": {
+          "shuffle": false
+        }
+      }
+    }
+  ]
+}
