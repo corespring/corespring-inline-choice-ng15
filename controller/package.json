@@ -4,6 +4,6 @@
   "private": true,
   "main": "src/controller.js",
   "dependencies": {
-    "corespring-legacy-inline-choice": "PieLabs/corespring-legacy-inline-choice"
+    "corespring-legacy-inline-choice": "corespring/corespring-legacy-inline-choice"
   }
 }
