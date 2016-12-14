@@ -1,11 +1,14 @@
 {
-  "pies": [
+  "langs": [
+    "en-US"
+  ],
+  "elements": {
+    "corespring-inline-choice-ng15": "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "pie": {
-        "name": "corespring-inline-choice-ng15",
-        "version": "1.0.0"
-      },
+      "element": "corespring-inline-choice-ng15",
       "correctResponse": "mc_1",
       "title": "Inline Choice",
       "minimumWidth": 100,
