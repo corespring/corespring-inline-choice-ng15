@@ -9,49 +9,56 @@
     {
       "id": "1",
       "element": "corespring-inline-choice-ng15",
-      "correctResponse": "mc_1",
-      "title": "Inline Choice",
-      "minimumWidth": 100,
-      "feedback" :  [
-        {
-          "value": "mc_1",
-          "feedbackType" : "default"
+      "model" : {
+        "correctResponse" : "2",
+        "config" : {
+          "shuffle" : "",
+          "orientation" : "vertical",
+          "choiceType" : "radio",
+          "choiceLabels" : "letters",
+          "singleChoice" : false
         },
-        {
-          "value": "mc_2",
-          "feedbackType" : "default"
-        },
-        {
-          "value": "mc_3",
-          "feedbackType" : "default"
-        },
-        {
-          "value": "mc_4",
-          "feedbackType" : "default"
-        }
-      ],
-      "model": {
-        "choices": [
+        "prompt" : "",
+        "choices" : [ 
           {
-            "label": "one",
-            "value": "mc_1"
-          },
+            "label" : "Distance Walked",
+            "value" : "1"
+          }, 
           {
-            "label": "two",
-            "value": "mc_2"
-          },
+            "label" : "Money Available to Spend",
+            "value" : "2"
+          }, 
           {
-            "label": "three",
-            "value": "mc_3"
-          },
+            "label" : "Number of Movies Seen",
+            "value" : "3"
+          }, 
           {
-            "label": "four",
-            "value": "mc_4"
+            "label" : "Number of Stores Visited",
+            "value" : "4"
           }
         ],
-        "config": {
-          "shuffle": false
-        }
+        "feedback" : [ 
+          {
+            "value" : "1",
+            "feedback" : "The correct answer is Money Available to Spend.",
+            "notChosenFeedback" : "The correct answer is Money Available to Spend."
+          }, 
+          {
+            "value" : "2",
+            "feedback" : "Correct!",
+            "notChosenFeedback" : "Correct!"
+          }, 
+          {
+            "value" : "3",
+            "feedback" : "The correct answer is Money Available to Spend.",
+            "notChosenFeedback" : "The correct answer is Money Available to Spend."
+          }, 
+          {
+            "value" : "4",
+            "feedback" : "The correct answer is Money Available to Spend.",
+            "notChosenFeedback" : "The correct answer is Money Available to Spend."
+          }
+        ]
       }
     }
   ]
